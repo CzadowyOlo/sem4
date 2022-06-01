@@ -206,8 +206,10 @@ Wystarczy na każdym urządeniu (routerach i pecetach) spingować jakąś stronk
 <br />
 
 ![pibgi](screens/s7.png)
+<br />
 .<br />
 ![trace](screens/s8.png)
+<br />
 <br />
 Na powyższym zdjęciu widać jak pingowalem PC2 z PC1, mozna zauważyć kilka ciekawych rzeczy:
 1. da sie spibgować, czyli komputery są polączone w tej sieci
@@ -216,3 +218,5 @@ Na powyższym zdjęciu widać jak pingowalem PC2 z PC1, mozna zauważyć kilka c
 4. switche nie zabierają pakietowi życia
 <br />
 
+## Podglądanie wiresharkiem:
+<br />
