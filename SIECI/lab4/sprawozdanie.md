@@ -203,13 +203,16 @@ Po zakończonej konfiguracji oraz uruchomieniu (*start all nodes*), sieć prezen
 .<br />
 .<br />
 Wystarczy na każdym urządeniu (routerach i pecetach) spingować jakąś stronke internetową oraz inne urządzenia wewnątrz mojej sieci:
+<br />
 
 ![pibgi](screens/s7.png)
-.
+.<br />
 ![trace](screens/s8.png)
-
+<br />
 Na powyższym zdjęciu widać jak pingowalem PC2 z PC1, mozna zauważyć kilka ciekawych rzeczy:
 1. da sie spibgować, czyli komputery są polączone w tej sieci
 2. wartość ttl z pakiety spadła z 64 na 62, co znaczy że po drodze byly dwa urządzenia
 3. trace to potwierdza, wskazał ip dwóch routerów które były po drodze
 4. switche nie zabierają pakietowi życia
+<br />
+
