@@ -191,5 +191,10 @@ ip dns 8.8.8.8
 wr
 ```
 
-Po zakończonej konfiguracji, sieć prezentuje sie następująco:
+Po zakończonej konfiguracji oraz uruchomieniu (*start all nodes*), sieć prezentuje sie następująco:
+
+![siec](screens/s5.png)
+
+## Testowanie czy działa:
+
 
