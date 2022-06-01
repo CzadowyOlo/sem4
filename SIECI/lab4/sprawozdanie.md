@@ -201,3 +201,8 @@ Po zakończonej konfiguracji oraz uruchomieniu (*start all nodes*), sieć prezen
 .
 .
 .
+Wystarczy na każdym urządeniu (routerach i pecetach) spingować jakąś stronke internetową oraz inne urządzenia wewnątrz mojej sieci:
+
+![pibgi](screens/s7.png)
+.
+![trace](screens/s8.png)
