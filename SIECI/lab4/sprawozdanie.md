@@ -197,4 +197,7 @@ Po zakończonej konfiguracji oraz uruchomieniu (*start all nodes*), sieć prezen
 
 ## Testowanie czy działa:
 
-
+![otyly_pan](screens/s6.jpeg)
+.
+.
+.
