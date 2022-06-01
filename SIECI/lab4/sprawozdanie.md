@@ -206,3 +206,9 @@ Wystarczy na każdym urządeniu (routerach i pecetach) spingować jakąś stronk
 ![pibgi](screens/s7.png)
 .
 ![trace](screens/s8.png)
+
+Na powyższym zdjęciu widać jak pingowalem PC2 z PC1, mozna zauważyć kilka ciekawych rzeczy:
+  i. da sie spibgować, czyli komputery są polączone w tej sieci
+  ii. wartość ttl z pakiety spadła z 64 na 62, co znaczy że po drodze byly dwa urządzenia
+  iii. trace to potwierdza, wskazał ip dwóch routerów które były po drodze
+  iiii. switche nie zabierają pakietowi życia
