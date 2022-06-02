@@ -4,13 +4,16 @@
 3. Zaimportowałem do projektu w `gns3` pobrany router:
 
 ![imporowanie](screens/s1.png)
+<br />
 4. Następnie wstawiłem wszystkie elementy sieci aby stworzyć topologię zadaną przez prowadzącego:
 
 ![wstępna topologia](screens/s2.png)
+<br />
 5. W konfiguracji routerow pododawalem odpowiednie porty, by je wzajemnie łączyć:
 
 ![router1](screens/s3.png)
 ![router2](screens/s4.png)
+<br />
 6. Skonfigurowałem chmurę tak o:
   1. PPM na chmurę i opcja ==conigure==.
   2. Dodałem interfejs internetowy z opcji ==show special enthernet interfaces==.
@@ -194,6 +197,7 @@ wr
 Po zakończonej konfiguracji oraz uruchomieniu (*start all nodes*), sieć prezentuje sie następująco:
 
 ![siec](screens/s5.png)
+<br />
 
 ## Testowanie czy działa:
 
