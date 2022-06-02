@@ -229,6 +229,6 @@ Na powyższym zdjęciu widać jak pingowalem PC2 z PC1, mozna zauważyć kilka c
 ![shark](screens/s9.png)
 .<br />
 4. Widzimy tutaj po 5 pakietów dla obu urządzeń:
-  - tego co wysyła (PC1 z ip: 192.168.1.1)
-  - tego co odbiera (PC2 z ip: 192.168.2.22)
+    - tego co wysyła (PC1 z ip: 192.168.1.1)
+    - tego co odbiera (PC2 z ip: 192.168.2.22)
 5. Oznacza to że urządzenia wysyłają między sobą pakiety
