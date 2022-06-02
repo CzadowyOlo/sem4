@@ -227,3 +227,5 @@ Na powyższym zdjęciu widać jak pingowalem PC2 z PC1, mozna zauważyć kilka c
 2. Wtedy zostaniemy przekierowani do aplikacji `wireshark`.
 3. Można wysłać ping pomiedzy wybranymi urządzeniami i wtedy zobaczymy coś takiego:
 <br />
+![shark](screens/s9.png)
+<br />
