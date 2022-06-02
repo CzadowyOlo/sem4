@@ -228,7 +228,7 @@ Na powyższym zdjęciu widać jak pingowalem PC2 z PC1, mozna zauważyć kilka c
 3. Można wysłać ping pomiedzy wybranymi urządzeniami i wtedy zobaczymy coś takiego:
 ![shark](screens/s9.png)
 .<br />
-4. Widzimy tutaj po 5 pakietów dla obu urządzeń.
+4. Widzimy tutaj po 5 pakietów dla obu urządzeń:
   1. tego co wysyła (PC1 z ip: 192.168.1.1)
   2. tego co odbiera (PC2 z ip: 192.168.2.22)
 5. Oznacza to że urządzenia wysyłają między sobą pakiety
