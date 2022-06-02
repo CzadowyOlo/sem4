@@ -15,9 +15,9 @@
 ![router2](screens/s4.png)
 <br />
 6. Skonfigurowałem chmurę tak o:
-  1. PPM na chmurę i opcja <mark>conigure</mark>.
-  2. Dodałem interfejs internetowy z opcji <mark>show special enthernet interfaces</mark>.
-  3. Wybrałem <mark>virbr0</mark>.
+  1. PPM na chmurę i opcja <mark>**configure**</mark>.
+  2. Dodałem interfejs internetowy z opcji <mark>**show special enthernet interfaces**</mark>.
+  3. Wybrałem <mark>**virbr0**</mark>.
   4. Laptopa mam podlączonego kabelkiem do routera, wiec nie było problemów  z tym.
 7. Następnie zająłem się szczegółową konfiguracją urządzeń.
 
