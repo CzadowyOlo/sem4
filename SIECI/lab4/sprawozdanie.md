@@ -15,9 +15,9 @@
 ![router2](screens/s4.png)
 <br />
 6. Skonfigurowałem chmurę tak o:
-  1. PPM na chmurę i opcja ==conigure==.
-  2. Dodałem interfejs internetowy z opcji ==show special enthernet interfaces==.
-  3. Wybrałem ==virbr0==.
+  1. PPM na chmurę i opcja <mark>conigure</mark>.
+  2. Dodałem interfejs internetowy z opcji <mark>show special enthernet interfaces</mark>.
+  3. Wybrałem <mark>virbr0</mark>.
   4. Laptopa mam podlączonego kabelkiem do routera, wiec nie było problemów  z tym.
 7. Następnie zająłem się szczegółową konfiguracją urządzeń.
 
@@ -216,8 +216,8 @@ Wystarczy na każdym urządeniu (routerach i pecetach) spingować jakąś stronk
 <br />
 <br />
 Na powyższym zdjęciu widać jak pingowalem PC2 z PC1, mozna zauważyć kilka ciekawych rzeczy:
-1. da sie spibgować, czyli komputery są polączone w tej sieci
-2. wartość ttl z pakiety spadła z 64 na 62, co znaczy że po drodze byly dwa urządzenia
+1. da sie spingować, czyli komputery są polączone w tej sieci
+2. wartość ttl z pakietu wysłanego pingiem spadła z 64 na 62, co znaczy że po drodze byly dwa urządzenia
 3. trace to potwierdza, wskazał ip dwóch routerów które były po drodze
 4. switche nie zabierają pakietowi życia
 <br />
