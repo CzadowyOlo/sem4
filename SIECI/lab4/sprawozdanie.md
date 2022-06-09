@@ -166,7 +166,7 @@ ip 192.168.1.1/24 192.168.1.11
 ip dns 8.8.8.8
 wr
 ```
-You can test if connected to web
+Sprawdzanie czy jest podlączony do sieci zewnętrznej
 ```
 ping google.pl
 google.pl resolved to ...
