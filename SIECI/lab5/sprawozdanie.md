@@ -93,6 +93,35 @@ I AM header<br><a href="indeks.html"><strong>GO BACK</strong></a><br>
 
 <br />
 
+## Przykładowa strona:
+```bash
+<html>
+
+<head>
+<title>CONTACT SITE</title>
+<link rel="stylesheet" href="styl2.css" type="text/css" />
+</head>
+
+<body>
+
+<header><p>header</p></header>
+
+<section><article><p>to jest strona kontaktowa.<br>
+<img src="./fotos/ktorobidobrze.png" alt="     nikt..."> </p></article></section>
+
+<aside><p><b>Aleksander Glowacki, 724 638 353<br>github/CzadowyOlo</b></p></aside>
+
+
+<footer><p><a href="./main.html"><strong>MAIN SITE</strong></a><br>
+    <a href ="./indeks.html">spis stron</a><br/>
+    <br><a href="./dalej.html"><strong>wiecej zdjec z bomby</strong></a><br></p></footer>
+</body>
+
+</html>
+```
+
+<br />
+
 ## Gotowy plik `server.pl`:
 ```bash
 #!usr/bi/perl
