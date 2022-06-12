@@ -70,3 +70,22 @@ I AM header<br><a href="indeks.html"><strong>GO BACK</strong></a><br>
 ![header](Web/fotos/a_header2.png)
 
 <br />
+
+## Podpunkt 4 - budowa strony i podstron
+1. Zacząłem od przekierowania inicjacji żądania na stronę `main.html`
+```bash
+            # r->uri A uniform resource identifier, 
+            # or URI, is a short string containing a name or address which refers to an object in the "web."
+            # w momwncie otwarcia samego adresu, doklejamy do niego strone startową
+            if($r->uri eq "/" | $r->uri eq "/favicon.ico"){ #obsluga przekierowań i inicjacji | jakiś smiec ktory si epojawia w uri
+                my $file_s= "./Web/main.html";    # main.html - istniejacy plik - strona startowa
+                $c->send_file_response($file_s);
+            } else{
+                $file_s = $dir.$r->uri; #idziemy do folderu z innymi podstronami
+                #mam tutaj listę moich podstron
+                $c->send_file_response($file_s);
+                #przekierowanie na wybraną przez kliknięcie podstronę z hiperłącza
+            }
+```
+2. Gdy pierwszy raz uruchamiam serwer, to przekierowuję od razu na stronę `main.html`
+3. Późnije mogę obsługiwać inne przekierowania do kolejnych moich podstronek w katalogu `Web`
