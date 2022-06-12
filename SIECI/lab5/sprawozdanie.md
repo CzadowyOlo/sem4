@@ -60,3 +60,7 @@ I AM header<br><a href="indeks.html"><strong>GO BACK</strong></a><br>
             print FH $header; #drukujemy do niego pobranego requesta
             close(FH); #zamykamy plik ze stroną html (header)
 ```
+4. Podstrona z przechwyconym headerem:
+<br />
+![header](Web/fotos/a_header.png)
+<br />
