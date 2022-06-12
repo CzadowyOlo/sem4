@@ -215,3 +215,17 @@ while (my $c = $d->accept) { #sprawdzamy czy sie połaczyliśmy do witryny i zwr
 1. Uruchomilem wiresharka poleceniem `sudo wireshark`.
 2. Wybrałem opcję `loopback lo`.
 3. Zacząłem podglądać co sie dzieje podczas klikania na stronce.
+
+<br />
+
+![shark1](Web/fotos/a_wire1.png)
+
+<br />
+
+![shark2](Web/fotos/a_wire2.png)
+
+<br \>
+
+4. Widać żądania od konkretnych podstron, pierwsze odpalenie i struktury komunikatów w protokole http.
+
+## To chyba wszystko
