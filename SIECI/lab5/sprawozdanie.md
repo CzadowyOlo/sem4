@@ -72,7 +72,7 @@ I AM header<br><a href="indeks.html"><strong>GO BACK</strong></a><br>
 <br />
 
 ## Podpunkt 4 - budowa strony i podstron
-1. Zacząłem od przekierowania inicjacji żądania na stronę `main.html`
+1. Zacząłem od przekierowania inicjacji żądania na stronę `main.html`.
 ```bash
             # r->uri A uniform resource identifier, 
             # or URI, is a short string containing a name or address which refers to an object in the "web."
@@ -87,5 +87,11 @@ I AM header<br><a href="indeks.html"><strong>GO BACK</strong></a><br>
                 #przekierowanie na wybraną przez kliknięcie podstronę z hiperłącza
             }
 ```
-2. Gdy pierwszy raz uruchamiam serwer, to przekierowuję od razu na stronę `main.html`
-3. Późnije mogę obsługiwać inne przekierowania do kolejnych moich podstronek w katalogu `Web`
+2. Gdy pierwszy raz uruchamiam serwer, to przekierowuję od razu na stronę `main.html`.
+3. Później mogę obsługiwać inne przekierowania do kolejnych moich podstronek w katalogu `Web`.
+4. Na każdej stronie jest jakieś przekierowanie i wszystko działa jako tako, czyli dobrze.
+<br />
+## Podpunkt 5
+1. Uruchomilem wiresharka poleceniem `sudo wireshark`.
+2. Wybrałem opcję `loopback lo`.
+3. Zacząłem podglądać co sie dzieje podczas klikania na stronce.
