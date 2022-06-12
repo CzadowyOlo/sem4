@@ -62,5 +62,7 @@ I AM header<br><a href="indeks.html"><strong>GO BACK</strong></a><br>
 ```
 4. Podstrona z przechwyconym headerem:
 <br />
+
 ![header](Web/fotos/a_header.png)
+
 <br />
