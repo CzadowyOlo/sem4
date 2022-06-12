@@ -9,10 +9,10 @@ File server3.pl contains example program of a server protocol HTTP.
 6. Write simple report.
 
 ## Przygotowanie
-1. Pobrałem kod servera i zmieniłem alias ip mojego komputera z 'luki' na 'locolhost'
+1. Pobrałem kod servera i zmieniłem alias ip mojego komputera z `'luki'` na `'locolhost'`
 2. Stworzyłem plik indeks.html
 <br />
-server.pl:
+`server.pl:`
 
 ```bash
 #!usr/bi/perl
@@ -40,4 +40,14 @@ while (my $c = $d->accept) {
     undef($c);
 }
 ```
-3. Uruchomiłem program i wpisałem w przegladarkę danego linka, nic sie nie wyświetliło, bo plik index.html był pusty.
+<br />
+3. Uruchomiłem program i wpisałem w przegladarkę danego linka, nic sie nie wyświetliło, bo plik `index.html` był pusty.
+<br />
+
+## Podpunkt 3 - przechwycenie nagłówka requesta:
+1. Stworzyłem plik `header.html`
+2. Wpisałem do niego przekierowanie do strony głównej i jakiś tytuł do wyświetlenia:
+```bash
+I AM header<br><a href="indeks.html"><strong>GO BACK</strong></a><br>
+```
+3. 
