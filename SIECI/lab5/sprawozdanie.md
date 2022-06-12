@@ -54,15 +54,19 @@ I AM header<br><a href="indeks.html"><strong>GO BACK</strong></a><br>
 ```bash
         if ($r->method eq 'GET') {
             my $header = $r->headers->as_string; #pobieramy rządanie ze zmiennej r i zapisujemy je pod stringiem
-            my $filename = "./Web/header.html"; #odnosimy się do pliku header
-            open(FH, '>', $filename) or die $!; #otwieramy
-            print FH $str; #zrzucam wcześniej przygotowanego stringa do header.html
-            print FH $header; #drukujemy do niego pobranego requesta
+            my $filename = "./Web/header.html"; #odnosimy się do pliku indeks
+            open(FH, '>>', $filename) or die $!; #otwieramy
+
+            foreach($r->header_field_names) {
+                print FH ($_. "\t----->\t" . $r->header($_) . "<br>" );
+            }
+
+            print FH $strendline;
             close(FH); #zamykamy plik ze stroną html (header)
 ```
 4. Podstrona z przechwyconym headerem:
 <br />
 
-![header](Web/fotos/a_header.png)
+![header](Web/fotos/a_header2.png)
 
 <br />
