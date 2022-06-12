@@ -12,9 +12,10 @@ File server3.pl contains example program of a server protocol HTTP.
 1. Pobrałem kod servera i zmieniłem alias ip mojego komputera z `'luki'` na `'locolhost'`
 2. Stworzyłem plik indeks.html
 <br />
+
 `server.pl:`
 
-```bash
+```perl
 #!usr/bi/perl
 use HTTP::Daemon;
 use HTTP::Status;  
@@ -47,11 +48,11 @@ while (my $c = $d->accept) {
 ## Podpunkt 3 - przechwycenie nagłówka requesta:
 1. Stworzyłem plik `header.html`
 2. Wpisałem do niego przekierowanie do strony głównej i jakiś tytuł do wyświetlenia:
-```bash
+```html5
 I AM header<br><a href="indeks.html"><strong>GO BACK</strong></a><br>
 ```
 3. Dopisałem następujący ciąg poleceń:
-```bash
+```perl
         if ($r->method eq 'GET') {
             my $header = $r->headers->as_string; #pobieramy rządanie ze zmiennej r i zapisujemy je pod stringiem
             my $filename = "./Web/header.html"; #odnosimy się do pliku header
@@ -73,7 +74,7 @@ I AM header<br><a href="indeks.html"><strong>GO BACK</strong></a><br>
 
 ## Podpunkt 4 - budowa strony i podstron
 1. Zacząłem od przekierowania inicjacji żądania na stronę `main.html`.
-```bash
+```perl
             # r->uri A uniform resource identifier, 
             # or URI, is a short string containing a name or address which refers to an object in the "web."
             # w momwncie otwarcia samego adresu, doklejamy do niego strone startową
@@ -94,7 +95,7 @@ I AM header<br><a href="indeks.html"><strong>GO BACK</strong></a><br>
 <br />
 
 ## Przykładowa strona:
-```bash
+```html5
 <html>
 
 <head>
@@ -123,7 +124,7 @@ I AM header<br><a href="indeks.html"><strong>GO BACK</strong></a><br>
 <br />
 
 ## Gotowy plik `server.pl`:
-```bash
+```perl
 #!usr/bi/perl
 
 use HTTP::Daemon;
