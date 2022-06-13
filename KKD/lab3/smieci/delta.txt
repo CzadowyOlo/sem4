@@ -1,0 +1,46 @@
+case 'D':
+            
+            while ((sym = getchar()) != EOF)
+            {
+                k = 1;
+                n = 0;
+                p = 0;
+                bufor = bufor + dec_to_bin(sym);
+                
+                while(bufor[0] == '0')
+                {
+                    k++;
+                    //cout << "Number " <<  number << endl; 
+                    bufor = bufor.substr(1);
+                }
+
+                while(k > bufor.size()){
+                    sym = getchar();
+                    bufor = bufor + dec_to_bin(sym);
+
+                }
+                
+                number = bufor.substr(0, k);
+                bufor = bufor.substr(k);
+                n = bin_to_dec(number);
+                n--;
+
+                while(n > bufor.size()){
+                    sym = getchar();
+                    bufor = bufor + dec_to_bin(sym);
+
+                }
+
+                code = bufor.substr(0,n);
+                bufor = bufor. substr(n);
+                
+                code = '1' + code;
+
+                p = bin_to_dec(code);
+                p--; // zmniejszamy n o 1, ponieważ w kompresorze zwiekszalismy przed wyslaniem
+
+                output_code.push_back(p);
+                cout<<"dupa\n";
+                
+            }
+            break;  
