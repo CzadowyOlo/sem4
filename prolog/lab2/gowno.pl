@@ -1,0 +1,29 @@
+% zwraca elementy listy L na parzystych indeksach i zwraca liste R, z
+% pozostalych elementow
+%
+nieparzysty(L,X,Reszta) :-
+    nth0(I,L,X,Reszta),
+    I mod 2 =:= 0.
+
+% P1 - pomocnicza lista w której sa elementy juz wstawione do ciagu ale
+% tylko raz
+% P2 - poprawna lista przed obroceniem
+% X - wynik
+
+
+%odwracam mojo liste tyl na przod
+pom([], Y, Y, P2, X) :-
+    reverse(P2,X).
+
+
+pom(P1, I, OgrGorne, P2, X) :-
+    J is I+1,
+    I < OgrGorne,
+    pom([J | P1], J, OgrGorne, [J | P2], X).
+
+pom(P1, I, OgrGorne, P2, X) :-
+    nieparzysty(P1,N,Reszta),
+    pom(Reszta, I, OgrGorne, [N | P2], X).
+
+list(N, X) :-
+    pom([], 0, N, [], X).
